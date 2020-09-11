@@ -114,13 +114,13 @@
       },
       {
         "title": "Sassgen HTML template",
-        "category": "built with (jQuery, Bootstrap4, SCSS, CSS3)",
+        "category": "Sassgen built with (jQuery, Bootstrap4, SCSS, CSS3)",
         "image": "sassgen.png",
         "url": "http://demo.luova.studio/sassgen/"
       },
       {
-        "title": "Ardin Event Template",
-        "category": "built with (jQuery, Bootstrap4, SCSS, CSS3)",
+        "title": "Ardin Multipurpose Event Template",
+        "category": "Ardin Event built with (jQuery, Bootstrap4, SCSS, CSS3)",
         "image": "ardin.png",
         "url": "http://demo.luova.studio/ardin/"
       },
@@ -135,6 +135,12 @@
         "category": "TRS pro build with Wordpress",
         "image": "trs.png",
         "url": "http://www.trspro.live/"
+      },
+      {
+        "title": "Material CV/Resume",
+        "category": "Build with MaterializeCSS",
+        "image": "material.jpeg",
+        "url": "http://demo.deviserweb.com/material-cv-resume/"
       }
     ]
   },

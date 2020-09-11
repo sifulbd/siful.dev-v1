@@ -51,6 +51,14 @@ class SkillsComp extends Component {
                 <li><span className="bar-expand"></span><em>jQuery</em></li>
               </ul>
             </div>
+            
+            <h4>Storage</h4>
+            <div className="bars">
+              <ul className="skills">
+                <li><span className="bar-expand"></span><em>MySQL</em></li>
+                <li><span className="bar-expand"></span><em>MongoDB</em></li>
+              </ul>
+            </div>
           </div>
 
           <div className="three columns main-col">
@@ -69,16 +77,9 @@ class SkillsComp extends Component {
               <ul className="skills">
                 <li><span className="bar-expand"></span><em>VS Code</em></li>
                 <li><span className="bar-expand"></span><em>Git</em></li>
-                <li><span className="bar-expand"></span><em>Google Chrome</em></li>
               </ul>
             </div>
-            <h4>Storage</h4>
-            <div className="bars">
-              <ul className="skills">
-                <li><span className="bar-expand"></span><em>MySQL</em></li>
-                <li><span className="bar-expand"></span><em>MongoDB</em></li>
-              </ul>
-            </div>
+            
           </div>
 
           <div className="three columns main-col">

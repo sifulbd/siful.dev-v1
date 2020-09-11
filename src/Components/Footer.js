@@ -30,7 +30,7 @@ class Footer extends Component {
 
            <ul className="copyright">
               <li>&copy; Siful</li>
-              <li>Fork <a href="#">Github</a></li>
+              <li>Fork <a href="https://github.com/sifulbd/siful.dev-v1" target="_blank">Github</a></li>
            </ul>
 
         </div>
