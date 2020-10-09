@@ -17,9 +17,16 @@ class Portfolio extends Component {
                       <p>{projects.category}</p>
                     </div>
                   </div>
-                <a href={projects.url} target='_blank' title={projects.title}>
-                  <div className="link-icon"><i className="fa fa-link"></i></div>
-                </a>
+                  <div className="prev-btn">
+                    <div className="item-link">
+                      <a href={projects.url} target='_blank' title={projects.title}>
+                        <div className="link-icon">Live Preview</div>
+                      </a>               
+                    </div>
+                    <div className="github-link">
+                      <a href="https://github.com/sifulbd" className=""><i className="fa fa-github"></i></a> 
+                    </div>
+                  </div>
             </div>
           </div>
       )})

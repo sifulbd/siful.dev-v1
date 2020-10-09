@@ -449,15 +449,15 @@ ul#nav li.current a { color: #FFC107; }
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #010101;
-
    overflow: hidden;
    position: relative;
-
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    border-radius: 10px;
 }
 .portfolio-item .item-wrap a {
    display: block;
@@ -482,21 +482,22 @@ ul#nav li.current a { color: #FFC107; }
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #FFC107;
-   font-size: 18px;
-   line-height: 30px;
+   font-size: 16px;
+   line-height: 26px;
    padding-left: 18px;
    padding-bottom: 18px;
    background: url(../images/overlay-bg.png) repeat;
+   font-weight: bold;
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 24px/32px 'opensans-bold', sans-serif;
+   font: 18px/28px 'opensans-bold', sans-serif;
    color: #fff;
    text-transform: capitalize;
-   margin-bottom: 20px;
+   margin-bottom: 12px;
 }
 .portfolio-item .portfolio-item-meta p {
    font: 14px/23px 'opensans-regular', sans-serif;
@@ -1048,4 +1049,22 @@ a.btn-border {
 }
 .fa {
    font-size: 18px;
+}
+
+.item-wrap  .prev-btn {
+   display: block;
+   width: 100%;
+   margin-top: 20px;
+}
+.item-wrap  .item-link{
+   width: 49%;
+   display: inline-block;
+   float: left;
+}
+.item-wrap .github-link{
+   float: right;
+   padding-right: 30px;
+}
+.item-wrap .github-link a{
+   color: #e0e6e6
 }
