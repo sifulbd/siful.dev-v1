@@ -1068,3 +1068,21 @@ a.btn-border {
 .item-wrap .github-link a{
    color: #e0e6e6
 }
+
+.item-tag{
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.item-tag ul{
+   margin-top: 0;
+}
+.item-tag ul li{
+   line-height: 27px;
+   display: inline-block;
+   margin: 6px 3px;
+   margin-bottom: 0px;
+   border-radius: 4px;
+   padding: 0px 8px;
+   color: #43c2ccb8;
+   border: 1px solid #3090984d;
+}

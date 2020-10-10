@@ -6,6 +6,7 @@ class Portfolio extends Component {
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
+        const tasgs = projects.tech;
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
@@ -17,15 +18,23 @@ class Portfolio extends Component {
                       <p>{projects.category}</p>
                     </div>
                   </div>
+                  <div className="item-tag">                 
+                    <ul>
+                      {tasgs ? tasgs.replaceAll(',', '').split(" ").map( tg => <li>{tg}</li>) : ''}
+                    </ul>
+                  </div>
                   <div className="prev-btn">
                     <div className="item-link">
                       <a href={projects.url} target='_blank' title={projects.title}>
-                        <div className="link-icon">Live Preview</div>
+                        <div className="link-icon">Preview</div>
                       </a>               
                     </div>
-                    <div className="github-link">
-                      <a href="https://github.com/sifulbd" className=""><i className="fa fa-github"></i></a> 
-                    </div>
+                    {
+                      projects.github && <div className="github-link">
+                        <a target='_blank' href={projects.github} className=""><i className="fa fa-github"></i></a> 
+                      </div>
+                    }
+                    
                   </div>
             </div>
           </div>

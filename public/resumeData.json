@@ -107,21 +107,48 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Maha CV Resume Template",
-        "category": "Maha built with (jQuery, Bootstrap4, SCSS, CSS3)",
+        "title": "Volanteer Network",
+        "category": " A Volanteer registration website. Resgister using gmail and pick an event.",
+        "image": "vt.jpg",
+        "tech": "React, React-Bootstrap, firebase, MongoDB, Express, Heroku",
+        "url": "https://volanteer-network.web.app/",
+        "github": "https://github.com/sifulbd/volanteer-network"
+      },
+      {
+        "title": "Travel Ninja",
+        "category": "A website to search and book travel destination.",
+        "image": "trv.jpg",
+        "tech": "React, Material-UI, firebase, vercel, React-form-hook",
+        "url": "https://ninja-travel.web.app/",
+        "github": "https://github.com/sifulbd/ninja-travel"
+      },
+      {
+        "title": "Maha CV Resume",
+        "category": "A creative, minimal and clean personal website template.",
         "image": "maha.png",
+        "tech": "HTML5, jQuery, Bootstrap4, SCSS, CSS3",
         "url": "https://themeforest.net/item/maha-cvresume/23230305?s_rank=1"
       },
       {
         "title": "Sassgen HTML template",
-        "category": "Sassgen built with (jQuery, Bootstrap4, SCSS, CSS3)",
+        "category": "Modern and trendy package of premium saas landing pages",
+        "tech" : "jQuery, Bootstrap4, SCSS, CSS3",
         "image": "sassgen.png",
         "url": "http://demo.luova.studio/sassgen/"
       },
       {
+        "title": "Random Blog",
+        "category": "Random blog from api. shwoing image and comments on fullpgae.",
+        "tech" : "vercel, rest-api, react, api, component",
+        "image": "rb.jpg",
+        "url": "https://random-blog.vercel.app/",
+        "github": "https://github.com/sifulbd/random-blog"
+      },
+      {
         "title": "Ardin Event template ",
-        "category": "Ardin Event built with (jQuery, Bootstrap4, SCSS, CSS3)",
+        "category": "Event landing page for varous organization events.",
         "image": "ardin.png",
+        "tech": "jQuery, Bootstrap4, SCSS, CSS3, HTML5",
         "url": "http://demo.luova.studio/ardin/"
       },
       {
