@@ -48,7 +48,7 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h2 class="pt-title">Portfolios</h2>
+            <h2 class="pt-title">Portfolio</h2>
             <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-halves cf">
                 {projects}
             </div>
